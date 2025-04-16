@@ -1,5 +1,8 @@
 **VRTBRA** is an iOS application focused on diagnosing poor posture and helping users improve it through guided exercises. The logo represents a “V” made of two bones, symbolizing spinal health and balance.
 
+![IMG_2470-3](https://github.com/user-attachments/assets/6f60b1a0-cd08-4f2d-a451-677b6a903cf5)
+
+
 ### Features
 
 - **Welcome & Onboarding:** Smooth SwiftUI-based screens with animations and educational posture facts to introduce the problem and purpose of the app.  
@@ -9,15 +12,6 @@
 - **Result & Feedback:** After analysis, a snapshot preview is shown with feedback and options to retake or proceed.  
 - **Exercise Module:** Includes 10 posture-improving exercises with instructions, a one-minute timer, and relaxing background music. Users can skip, restart, or finish anytime.  
 - **Session Completion:** Ends with a congratulatory screen and options to redo exercises or return to the main menu.
-
-### Code Structure
-
-- **PostureDetector.swift:** Handles Vision-based pose detection and joint analysis.  
-- **OnboardingView.swift:** Implements onboarding UI with facts and animation transitions.  
-- **CameraView.swift:** Displays camera feed and renders joint positions in real time.  
-- **PostureAnalyzer.swift:** Computes joint distances and posture angle logic.  
-- **ExerciseView.swift:** Presents exercise steps, timers, music control, and progress flow.  
-- **AudioManager.swift:** Manages voice and music playback through AVFoundation.  
 
 ### Future Improvements
 
